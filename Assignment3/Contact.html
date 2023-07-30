@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <!-- Your Name -->
+    <!-- Your Email -->
+
+    <header>
+        <h1>Gaming PC</h1>
+        <a href="#" class="C:\Users\devan\OneDrive\Desktop\template\images\PC_Gamer_logo.png">Logo</a>
+    </header>
+
+    <nav>
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="contact.html" class="nav-link">Contact Us</a>
+    </nav>
+
+    <aside>
+        <h2>Items</h2>
+        <ul>
+            <li>Monitor</li>
+            <li>Keyboard</li>
+            <li>Mouse</li>
+        </ul>
+    </aside>
+
+    <main>
+        <h2>Information</h2>
+        <form action="#">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="employment-status">Employment Status:</label>
+                <select id="employment-status" name="employment-status" required>
+                    <option value="">Select Option</option>
+                    <option value="student">Student</option>
+                    <option value="employed-full-time">Employed Full-time</option>
+                    <option value="employed-part-time">Employed Part-time</option>
+                    <option value="retired">Retired</option>
+                    <option value="other">Other</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <legend>How did you hear about our site?</legend>
+                <input type="radio" id="social-media" name="how-heard" value="social-media">
+                <label for="social-media">Social Media</label><br>
+
+                <input type="radio" id="friend" name="how-heard" value="friend">
+                <label for="friend">Friend</label><br>
+
+                <input type="radio" id="search-engine" name="how-heard" value="search-engine">
+                <label for="search-engine">Search Engine</label><br>
+
+                <input type="radio" id="other-source" name="how-heard" value="other-source">
+                <label for="other-source">Other</label><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Tell Us what you think!</legend>
+                <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Your comments..."></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>Submit</legend>
+                <input type="checkbox" id="robot" name="robot" required>
+                <label for="robot">I am not a robot.</label><br>
+
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Devansh Chokshi - 8870430</p>
+    </footer>
+</body>
+</html>
